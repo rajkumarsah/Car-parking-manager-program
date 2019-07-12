@@ -1,7 +1,5 @@
 # kartik
-
-
-
+This is my first program, a simple project type.
 
 #include<iostream>
 #include<fstream>
@@ -25,7 +23,7 @@ private:
         cin>>mm>>dd>>yyyy;
         cout<<"ENTER THE ENTRY TIME:   HH MM SS(24 HOUR FORMAT)::";
         cin>>h>>m>>s;
-        ofstream fout;
+        ofstream 
         fout.open("data.txt",ios::app|ios::binary);
         fout.write((char*)(this),sizeof(*this));
         }
